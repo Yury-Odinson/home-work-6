@@ -1,0 +1,160 @@
+.wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    margin: 0 auto;
+    padding-top: 100px;
+    max-width: 1200px;
+    font-size: 3rem;
+}
+
+.txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+.txt__title {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.txt__posttitle {
+    font-size: 3rem;
+}
+
+.txt__email {
+    font-size: 1.7rem;
+}
+
+.screen-1 {
+        position: relative;
+    padding: 190px 20px;
+    background-color: white;
+    border-radius: 50px;
+    width: 360px;
+    height: 800px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.screen-1__img {
+    margin: 0 auto 80px;
+}
+.screen-1__title {
+    font-weight: 600;
+    font-size: 4rem;
+}
+.screen-1__posttitle {
+    font-weight: 300;
+}
+
+.button-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px 0 0;
+    max-width: 50px;
+}
+
+.nav__item {
+    background-color: #FFC33E;
+    border-radius: 5px;
+    width: 13px;
+    height: 6px;
+}
+
+.nav__item:first-child {
+    background-color: black;
+    width: 16px;
+}
+
+.button__next {
+    position: absolute;
+    bottom: 60px;
+    left: 280px;
+}
+
+.screen-2 {
+        padding: 40px 20px;
+        background-color: white;
+        border-radius: 50px;
+        width: 360px;
+        height: 800px;
+        font-family: 'Montserrat', sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+}
+
+.screen-2__img {
+    position: absolute;
+    top: 150px;
+    margin: 0 auto;
+}
+
+.screen-2-txt {
+    position: absolute;
+    top: 260px;
+    margin: 10px 20px;
+}
+
+.screen-2__title {
+    font-size: 3.5rem;
+    font-weight: 600;
+
+}
+
+.screen-2__posttitle {
+    font-size: 1.5rem;
+}
+
+.screen-2-inputs {
+    padding-top: 100px;
+}
+
+.input__name {
+    background-image: url(../assets/img/screen-2-img1.png) ;
+}
+
+.input__email {
+    background-image: url(../assets/img/screen-2-img2.png);
+}
+
+.input__tel {
+    background-image: url(../assets/img/screen-2-img3.png);
+}
+
+.input__pass {
+    background-image: url(../assets/img/screen-2-img4.png);
+}
+
+.input__agree {
+    display: flex;
+    justify-content: center;
+    border-color: #CBCBCB;
+}
+
+.agree__txt {
+    padding-left: 5px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.agree_link {
+    color: #FFC33E;
+}
+
+.screen-2__pass {
+    margin: 0 auto;
+    padding-top: 50px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+
