@@ -5,6 +5,7 @@
 
 .content {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     gap: 2rem;
     margin: 0 auto;
@@ -34,12 +35,12 @@
 }
 
 .screen-1 {
-        position: relative;
+    position: relative;
     padding: 190px 20px;
     background-color: white;
     border-radius: 50px;
     width: 360px;
-    height: 800px;
+    max-height: 800px;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -55,11 +56,12 @@
 }
 
 .button-nav {
+    position: absolute;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    padding: 50px 0 0;
-    max-width: 50px;
+    justify-content: space-between;        
+    width: 50px;
+    bottom: 80px;
 }
 
 .nav__item {
@@ -69,7 +71,11 @@
     height: 6px;
 }
 
-.nav__item:first-child {
+.screen-1__nav:first-child {
+    background-color: black;
+    width: 16px;
+}
+.screen-2__nav:nth-child(2) {
     background-color: black;
     width: 16px;
 }
@@ -81,33 +87,33 @@
 }
 
 .screen-2 {
-        padding: 40px 20px;
-        background-color: white;
-        border-radius: 50px;
-        width: 360px;
-        height: 800px;
-        font-family: 'Montserrat', sans-serif;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px 20px;
+    background-color: white;
+    border-radius: 50px;
+    width: 360px;
+    max-height: 800px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .screen-2__img {
     position: absolute;
-    top: 150px;
+    top: 30px;
     margin: 0 auto;
 }
 
 .screen-2-txt {
     position: absolute;
-    top: 260px;
+    top: 140px;
     margin: 10px 20px;
 }
 
 .screen-2__title {
     font-size: 3.5rem;
     font-weight: 600;
-
 }
 
 .screen-2__posttitle {
@@ -146,7 +152,7 @@
     font-weight: 600;
 }
 
-.agree_link {
+.screen-2__link {
     color: #FFC33E;
 }
 
@@ -157,4 +163,12 @@
     font-weight: 600;
 }
 
-
+.screen-2__log {    
+    position: absolute;
+    display: flex;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.3rem;
+    font-weight: 600;
+}
