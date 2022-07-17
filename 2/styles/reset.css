@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+    background: rgb(200,227,255);
+    background: radial-gradient(circle, rgba(200,227,255,0.50) 0%, rgba(177,245,246,0.50) 36%, rgba(146,239,247,0.50) 70%, rgba(233,251,255,0.50) 100%);
+}
+
+ul {
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-weight: 300;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+input {
+    border: none;
+}
+
+

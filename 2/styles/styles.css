@@ -1,0 +1,91 @@
+.wrapper {
+    margin: 0 auto;
+    padding-top: 200px;
+    max-width: 800px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+}
+
+.title__img {
+    margin: 0 auto;
+}
+
+.title__txt {
+    margin: 0 auto;
+    padding-top: 30px;
+    font-weight: 500;
+    color: #71AB8F;
+}
+
+.modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 100px;
+    background-color: rgba(255, 255, 255, 0.35);
+    font-weight: 3rem;
+    border: 1px solid #E4E4E4;
+    border-radius: 30px;
+    max-width: 800px;
+    
+    
+
+}
+
+.modal-txt {
+    padding: 30px;
+    font-size: 2.2rem;
+    color: #4A4A4A;
+}
+
+.txt__title {
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+
+.txt-posttitle {
+    color: rgba(0, 0, 0, 0.35);
+}
+
+
+.modal__email {
+    margin: 30px auto;
+    padding-left: 20px;
+    width: 700px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.35);
+    border: 1px solid #E4E4E4;
+    border-radius: 10px;
+    background-image: url(../assets/img/Vector.png);
+    background-repeat: no-repeat;
+    background-position: center right 20px;
+    font-size: 2rem;
+    color: rgba(0, 0, 0, 0.35);
+}
+
+
+
+.subscribe {
+    position: absolute;
+    padding: 30px;
+    display: flex;
+    gap: 40px;
+    bottom: 50px;
+    right: 50px;
+}
+
+.subscribe__follow {
+    padding: 10px 50px 10px 20px;
+    background-color: rgba(53, 143, 100, 0.10);
+    border: 1px solid rgba(53, 143, 100, 0.42);
+    border-radius: 50px;
+    color: #358F64;
+    font-size: 2rem;
+    background-image: url(../assets/img/button_twitter.png);
+    background-repeat: no-repeat;
+    background-position: center right 20px;
+}
+
