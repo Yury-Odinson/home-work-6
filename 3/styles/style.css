@@ -1,0 +1,127 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px auto;
+    width: 850px;
+    height: 1012px;
+}
+
+.wrapper-first {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 375px;
+    height: 812px;
+    background-image: url(../assets/img/back_first.png);
+    border-radius: 50px;
+}
+
+.first__background {
+    border-radius: 50px;
+}
+
+.first__title {
+    padding: 70px 0 0 30px;
+    width: 370px;
+    color: white;
+    font-size: 4.2rem;
+    font-weight: 700;
+}
+
+.first__posttitle {
+    padding: 10px 0 0 30px;
+    width: 370px;
+    color: white;
+    font-size: 2.2rem;
+    font-weight: 300;
+}
+
+.first__button {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 250px;
+    height: 50px;
+    background-color: black;
+    border-radius: 15px;
+    font-size: 2rem;
+    color: white;
+}
+
+.wrapper-second {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 100px 0;
+    width: 375px;
+    height: 812px;
+    background-color: white;
+    border-radius: 50px;
+}
+
+.second__title {
+    margin: 0 auto;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.second__input {
+    margin: 35px auto 0;
+    padding: 15px 20px;
+    width: 320px;
+    height: 50px;
+    background-color: #DEDEDE;
+    color: #989898;
+    border-radius: 10px;
+    font-size: 2rem;
+}
+
+.second-checkbox {
+    margin: 0 auto;
+    padding: 35px;
+    font-size: 1.6rem;   
+}
+
+.second-checkbox__custom {
+    width: 21px;
+    height: 21px;
+    border-color: red;
+    border-radius: 50px;
+    background-color: #DEDEDE;
+    cursor: pointer;
+}
+
+.second__button {
+    margin: 0 auto;
+    width: 230px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 17px;
+    font-size: 2rem;
+}
+
+.second__join {
+    margin: 20px auto;
+    font-size: 2rem;
+}
+
+.second__sign {
+    margin: 20px auto;
+    font-size: 2rem;
+}
+
+.second-links {
+    display: flex;
+    gap: 30px;
+    margin: 0 auto;
+}
+
+.second-links__button {
+    width: 64px;
+    height: 48px;
+    background-color: black;
+}
